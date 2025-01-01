@@ -19,7 +19,7 @@ export class TrpcPanelController implements OnModuleInit {
         return renderTrpcPanel(
             this.appRouter,
             {
-                url: 'http://localhost:3000/trpc',
+                url: 'https://trpc-backend-2b8l.onrender.com/panel',
             }
         );
     }
